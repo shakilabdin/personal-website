@@ -66,30 +66,17 @@
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
         &--1 {
-            background-image: linear-gradient(
-                    to right bottom,
-                    $color-secondary-light,
-                    $color-secondary-dark
-                ),
-                url(../img/nat-5.jpg);
+            background-image: url(../img/mindmaze.png);
+            background-size: contain;
+            background-repeat: no-repeat;
         }
 
         &--2 {
-            background-image: linear-gradient(
-                    to right bottom,
-                    $color-primary-light,
-                    $color-primary-dark
-                ),
-                url(../img/nat-6.jpg);
+            background-image: url(../img/newsy.jpg);
         }
 
         &--3 {
-            background-image: linear-gradient(
-                    to right bottom,
-                    $color-tertiary-light,
-                    $color-tertiary-dark
-                ),
-                url(../img/nat-7.jpg);
+            background-image: url(../img/codehub.png);
         }
     }
 
@@ -109,6 +96,8 @@
     &__heading-span {
         padding: 1rem 1.5rem;
         box-decoration-break: clone;
+        position: relative;
+        top: 5rem;
 
         &--1 {
             background-image: linear-gradient(
@@ -175,10 +164,5 @@
     &__price-only {
         font-size: 1.4rem;
         text-transform: uppercase;
-    }
-
-    &__price-value {
-        font-size: 6rem;
-        font-size: 100;
     }
 }

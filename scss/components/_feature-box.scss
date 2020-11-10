@@ -6,6 +6,7 @@
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba(black, .15);
     transition: all .3s;
+    height: 40rem;
 
     &__icon {
         font-size: 6rem;
@@ -15,7 +16,12 @@
         background-clip: inherit;
         -webkit-background-clip: text;
         color: transparent;
+
     };
+
+    &__details {
+        list-style: none;
+    }
 
     &:hover {
         transform: translateY(-1.5rem) scale(1.05);
