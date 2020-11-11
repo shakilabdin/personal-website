@@ -251,11 +251,11 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     width: 90%; }
-  .card__price-box {
+  .card__detail-box {
     text-align: center;
     color: white;
     margin-bottom: 8rem; }
-  .card__price-only {
+  .card__detail-only {
     font-size: 1.4rem;
     text-transform: uppercase; }
 
@@ -286,7 +286,7 @@ body {
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.8); }
 
-.feature-box {
+.skill-box {
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
   padding: 2.5rem;
@@ -295,7 +295,7 @@ body {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: all .3s;
   height: 40rem; }
-  .feature-box__icon {
+  .skill-box__icon {
     font-size: 6rem;
     margin-bottom: .5rem;
     display: inline-block;
@@ -303,12 +303,12 @@ body {
     background-clip: inherit;
     -webkit-background-clip: text;
     color: transparent; }
-  .feature-box__details {
+  .skill-box__details {
     list-style: none; }
-  .feature-box:hover {
+  .skill-box:hover {
     transform: translateY(-1.5rem) scale(1.05); }
 
-.story {
+.experience {
   width: 75%;
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.2);
@@ -319,7 +319,7 @@ body {
   font-size: 1.6rem;
   transform: skewX(-12deg);
   margin-bottom: 10rem; }
-  .story__shape {
+  .experience__shape {
     width: 15rem;
     height: 15rem;
     float: left;
@@ -327,13 +327,13 @@ body {
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg);
     position: relative; }
-  .story__image {
+  .experience__image {
     height: 100%;
     transform: translateX(0rem) scale(1.1);
     transition: all 0.5s; }
-  .story__text {
+  .experience__text {
     transform: skewX(12deg); }
-  .story__caption {
+  .experience__caption {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -344,10 +344,10 @@ body {
     color: white;
     opacity: 0;
     transition: all 0.5s; }
-  .story:hover .story__caption {
+  .experience:hover .experience__caption {
     opacity: 1;
     transform: translate(-50%, -50%); }
-  .story:hover .story__image {
+  .experience:hover .experience__image {
     transform: translateX(0rem) scale(1);
     filter: blur(3px) brightness(80%); }
 
@@ -360,7 +360,7 @@ body {
     border-top: 1px solid #f7f7f7;
     padding-top: 2rem;
     display: inline-block; }
-  .footer__copyright {
+  .footer__resume {
     border-top: 1px solid #f7f7f7;
     padding-top: 2rem;
     float: right; }
@@ -425,20 +425,20 @@ body {
   padding: 25rem 0;
   margin-top: -25vh; }
 
-.section-features {
+.section-skills {
   padding: 20rem 0;
   background-image: linear-gradient(to right bottom, rgba(173, 232, 244, 0.8), rgba(0, 150, 199, 0.8)), url(../img/skills.png);
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
-  .section-features > * {
+  .section-skills > * {
     transform: skewY(7deg); }
 
-.section-tours {
+.section-projects {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem 0;
   margin-top: -15vh; }
 
-.section-stories {
+.section-experiences {
   padding: 15rem 0;
   position: relative; }
