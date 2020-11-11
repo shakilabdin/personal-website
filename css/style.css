@@ -427,7 +427,7 @@ body {
 
 .section-skills {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(173, 232, 244, 0.8), rgba(0, 150, 199, 0.8)), url(../img/skills.png);
+  background-image: linear-gradient(to right bottom, rgba(173, 232, 244, 0.8), rgba(0, 150, 199, 0.8));
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -10rem; }
