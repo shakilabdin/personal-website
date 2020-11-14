@@ -15,6 +15,50 @@
 </head>
 
 <body>
+    <!--Navigation -->
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="#about-me" class="navigation__link"
+                        onclick="document.querySelector('.navigation__checkbox').checked=false">
+                        About Me
+                    </a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#skills" class="navigation__link"
+                        onclick="document.querySelector('.navigation__checkbox').checked=false">
+                        Technical Skills
+                    </a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#projects" class="navigation__link"
+                        onclick="document.querySelector('.navigation__checkbox').checked=false">
+                        Projects
+                    </a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#experiences" class="navigation__link"
+                        onclick="document.querySelector('.navigation__checkbox').checked=false">
+                        Experience
+                    </a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#contacts" class="navigation__link"
+                        onclick="document.querySelector('.navigation__checkbox').checked=false">
+                        Contacts
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
     <!-- header opening view -->
     <header class="header">
         <div class="header__logo-box">
@@ -64,7 +108,7 @@
     <main>
 
         <!-- about section  -->
-        <section class="section-about">
+        <section class="section-about" id="about-me">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     About Me
@@ -104,7 +148,7 @@
         <!-- end of about section  -->
 
         <!-- skills section  -->
-        <section class="section-skills">
+        <section class="section-skills" id="skills">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary" style="color: white;">
                     Technical Skills
@@ -175,7 +219,7 @@
         <!-- end of skills section  -->
 
         <!-- projects section  -->
-        <section class="section-projects">
+        <section class="section-projects" id="projects">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Projects
@@ -311,7 +355,7 @@
         <!-- end of projects section  -->
 
         <!-- experiences section  -->
-        <section class="section-experiences">
+        <section class="section-experiences" id="experiences">
             <div class="bg-video">
                 <video class="bg-video__content" autoplay muted loop>
                     <source src="img/video.mp4" type="video/mp4">
@@ -321,7 +365,7 @@
             </div>
 
             <div class="u-center-text u-margin-bottom-big">
-                <h2 class="heading-secondary">
+                <h2 class="heading-secondary__experience">
                     Experience
                 </h2>
             </div>
@@ -330,7 +374,7 @@
 
                 <div class="experience">
                     <figure class="experience__shape">
-                        <img class="experience__image" src="img/placeholder.png" alt="person on tour">
+                        <img class="experience__image" src="img/skslogo.JPG" alt="person on tour">
                         <figcaption class="experience__caption">SKS Pharmacy</figcaption>
                     </figure>
                     <div class="experience__text">
@@ -363,7 +407,7 @@
                             <br>
                             • Developed 4 advanced portfolio projects in paired programming and 1 final solo project
                             <br>
-                            • Studied OOP, SQL, Product Management, MVC Framework, etc.
+                            • Studied OOP, SQL, Product Management, MVC Framework, Data Structures, and Algorithms
                         </p>
                     </div>
                 </div>
@@ -383,7 +427,7 @@
         <!-- end of booking section  -->
 
         <!-- footer section  -->
-        <footer class="footer">
+        <footer class="footer" id="contacts">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Contacts
