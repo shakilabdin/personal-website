@@ -202,8 +202,8 @@ body {
   transform: translateY(-2px); }
 
 .card {
-  perspective: 150rem;
   -moz-perspective: 150rem;
+  perspective: 150rem;
   position: relative;
   height: 52rem; }
   .card__side {
@@ -330,7 +330,8 @@ body {
   height: 40rem; }
   @media (max-width: 56.25em) {
     .skill-box {
-      padding: 2rem; } }
+      padding: 2rem;
+      height: 35rem; } }
   .skill-box__icon {
     font-size: 6rem;
     margin-bottom: .5rem;
@@ -497,7 +498,7 @@ body {
     border-radius: 200rem; }
   .header__text-box {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
