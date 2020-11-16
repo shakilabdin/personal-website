@@ -19,6 +19,11 @@ body {
 
         animation-name: moveInLeft;
         animation-duration: 2s;
+
+        @include respond(phone) {
+            letter-spacing: 1rem;
+            font-family: 5rem;
+        }
     }
 
     &--sub {
@@ -29,11 +34,9 @@ body {
 
         animation: moveInRight 2s;
 
-        /* 
-        animation-delay: 3s;
-        animation-iteration-count: 3;
-        animation-timing-function: ;
-         */
+        @include respond(phone) {
+            letter-spacing: 0.5rem;
+        }
     }
 }
 
@@ -46,6 +49,14 @@ body {
     background-clip: border-box;
     -webkit-background-clip: text;
     color: transparent;
+
+    @include respond(tab-port) {
+        font-size: 3rem;
+    }
+
+    @include respond(tab-port) {
+        font-size: 2.5rem;
+    }
 
     &__experience {
         font-size: 3.5rem;
